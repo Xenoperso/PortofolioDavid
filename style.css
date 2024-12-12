@@ -1,0 +1,298 @@
+#Accueil {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/pexels-manfred-irmer-184952-587063.jpg);
+    background-position: center;
+    height: 800px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-style: solid;
+    border-color: orange;
+    padding: 10px;
+    margin: 15px;
+}
+
+mark {
+    background-color: aqua;
+}
+
+#Accueilcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+}
+
+#Accueilcontent h1 {
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    padding: 10px;
+    border-style: solid;
+    border-color: orange;
+
+}
+
+#A_propos {
+    display: flex;
+    height: 600px;
+    background-color: rgb(0, 196, 196);
+    justify-content: center;
+    align-items: center;
+}
+
+#A_propos div img {
+    height: 500px;
+    border-style: solid;
+    border-color: orange;
+
+}
+
+#A_propos div {
+    margin: 30px;
+}
+
+#aproposcontenu {
+    
+    height: 500px;
+}
+
+
+
+#barre1, #barre2, #barre3, #reference {
+    background-color: #e18957;
+}
+
+#barre1 {
+    width: 32%;
+}
+
+#barre2 {
+    width: 23%;
+}
+
+#barre3 {
+    width: 15%;
+}
+
+#Services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(36, 161, 161);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+#Services div {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#Services div article {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: aqua;
+   width: 30%;
+   padding: 10px 10px 10px 10px;
+   border-style: solid;
+   border-color: orange;
+}
+
+#Portofolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e18957;
+    padding-bottom: 30px;
+}
+
+
+#Portofolio li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+#portofoliomenu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#Portofolioimages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Portofolioimages div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: aqua;
+    margin: 10px;
+}
+
+#Portofolioimages img {
+    width: 400px;
+}
+
+#Blog {
+    background-color: #f0a57a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#Blog div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#Blog article {
+    width: 400px;
+    background-color: #e18957;
+    border-style: solid;
+    border-color: aqua;
+    margin: 20px;
+}
+
+#Blog img {
+    width: 400px;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(36, 161, 161);
+    padding-bottom: 10px;
+    height: 500px;
+
+}
+
+#admailtel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#admailtel div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
+
+input {
+    width: 45%;
+}
+
+input, textarea {
+    border-color: rgb(36, 161, 161);
+    border-style: solid;
+    margin: 10px;
+}
+
+button {
+    background-color: orange;
+    border-color: rgb(36, 161, 161);
+    color: #fff;
+    border-style: solid;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 50px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 20px;
+}
